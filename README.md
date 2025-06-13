@@ -58,15 +58,14 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Visual Studio Code
-- Ruby installed 
-
+- Visual Studio Code 
+Ruby version: 3.0 
 ### Setup
 
 Clone this repository to your desired folder:
 
 sh
-  cd module2/LEADER-S-LEADERS-BOARD- folder
+  cd module2
   git clone  https://github.com/shiminyiblaise/Myenumerable_ruby.git
 
 
@@ -80,7 +79,7 @@ sh
 
 ### Usage
 
-To run the project, start the html file on live server
+
 
 ### Run tests
 
