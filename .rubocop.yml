@@ -50,9 +50,4 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-
-  - name: Rubocop Autocorrect
-  run: rubocop --auto-correct --color
-- name: Rubocop Report
-  run: rubocop --color
   
