@@ -13,4 +13,5 @@ puts list.any? { |e| e == 2 } # => true
 puts list.any? { |e| e == 5 } # => false
 
 # Test #filter
+puts list.filter { |e| e > 2 } # => [3, 4]
 puts list.filter { |e| e.even? } # => [2, 4]

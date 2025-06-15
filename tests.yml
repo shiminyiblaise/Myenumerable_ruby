@@ -17,5 +17,7 @@ jobs:
           gem install --no-document rspec -v '>=3.0, < 4.0'
       - name: RSpec Report
         run: rspec --force-color --format documentation
+      - name: RSpec Lint
+        run: rspec --force-color --format progress --format RspecJunitFormatter --out rspec.xml
 
         
