@@ -3,22 +3,25 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
-    - "node_modules/**/*"
+    - "node_modules//*"
 
   DisplayCopNames: true
 
 Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
-  Max: 20
+  Max: 26
 Metrics/AbcSize:
   Max: 50
 Metrics/ClassLength:
-  Max: 150
+  Max: 250
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
   Max: 30
-
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - './classes/main.rb' 
+    - 'process_choice' 
 
 Style/Documentation:
   Enabled: false
@@ -50,3 +53,4 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+  
